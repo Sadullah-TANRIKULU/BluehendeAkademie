@@ -8,11 +8,6 @@
   "icons": [
     {
       "src": "assets/sunflower.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "assets/icon-z.png",
       "sizes": "512x512",
       "type": "image/png"
     }
