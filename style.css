@@ -6,6 +6,7 @@ body {
   background-color: #F5FAE1;
   color: #896C6C;
   line-height: 1.5;
+  width: 97vw;
 }
 
 #header {
@@ -26,7 +27,7 @@ select {
 select {
   border-radius: 6px;
   border: 1px solid #1c352d;
-  background: #a6b28b;
+  background: rgba(166, 178, 139, 0.3);
   color: #1c352d;
 }
 
