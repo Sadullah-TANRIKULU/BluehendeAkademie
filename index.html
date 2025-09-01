@@ -24,16 +24,22 @@
     />
   </head>
   <body>
-    <header>
-      <h1 class="title">Blühende Akademie</h1>
+    <header id="header">
+      <h1 class="title" id="titel">Blühende Akademie</h1>
     </header>
 
     <main>
+      <label for="sprache" id="sprachwaehl">Sprache wählen:</label>
+      <select id="sprache">
+        <option value="de">Deutsch 🇩🇪</option>
+        <option value="tr">Türkçe 🇹🇷</option>
+      </select>
+      <!-- <button onclick="wechselSprache('de')">Deutsch</button>
+      <button onclick="wechselSprache('tr')">Türkçe</button> -->
       <p class="bismillah">بسم الله الرحمن الرحيم</p>
 
-      <!-- 3 Reihen mit je 2 Bildern nebeneinander -->
       <section class="image-row">
-        <p>Welche ist Meisterwerk? Warum?</p>
+        <p id="erstefrage">Welche ist Meisterwerk? Warum?</p>
         <div>
           <img src="assets/apfel-rot.png" alt="Bild 1" />
           <img src="assets/laptop.png" alt="Bild 2" />
@@ -41,7 +47,7 @@
       </section>
 
       <section class="image-row">
-        <p>Welche ist höher als künstlich? Weshalb?</p>
+        <p id="zweitefrage">Welche ist höher künstlich? Weshalb?</p>
         <div>
           <img src="assets/pferd.png" alt="Bild 3" />
           <img src="assets/mosquito-Muecke.png" alt="Bild 4" />
@@ -49,7 +55,7 @@
       </section>
 
       <section class="image-row">
-        <p>
+        <p id="drittefrage">
           Ist es möglich, dass Ebb und Flut könnten die Erde zerstören? Wieso?
         </p>
         <div>
@@ -78,94 +84,90 @@
 
       <!-- SimpleNote-Kanal kurzer Text -->
       <section class="simplenote-section">
-        <img
-          src="assets/angry birds_yellow bird_angry birds_yellow bird.png"
-          alt="Angry Bird Icon"
-          class="angrybird-icon"
-        />
-        <p>
-          Willkommen in unserem
-          <a
-            href="https://app.simplenote.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            SimpleNote-Kanal </a
-          >. Bleibe auf dem Laufenden und erfahre mehr:
+        <p id="simplenote">
+          Willkommen in unserem SimpleNote-Kanal. Bleibe auf dem Laufenden und
+          erfahre mehr!
         </p>
+        <a
+          href="https://app.simplenote.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="assets/angry birds_yellow bird_angry birds_yellow bird.png"
+            alt="Angry Bird Icon"
+            class="angrybird-icon"
+          />
+          <img src="./assets/redirect.jpg" alt="" width="30" height="30" />
+        </a>
       </section>
 
       <!-- Weitere Texte -->
       <section class="text-section">
-        <img
-          src="assets/black bird_black bird_angry birds_angry birds.png"
-          alt="Angry Bird Icon"
-          class="angrybird-icon"
-        />
-        <p>
-          Sag ein Wort und finde es in
-          <a
-            href="https://pirlantaoku.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >pirlantaoku.com</a
-          >
-          in deinem Telefon, wähl eine Abschnitt und lies!
+        <p id="zurbuecher">
+          Sag ein Wort und finde es in deinem Telefon, wähl eine Abschnitt und
+          lies!
         </p>
+        <a
+          href="https://pirlantaoku.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            src="assets/black bird_black bird_angry birds_angry birds.png"
+            alt="Angry Bird Icon"
+            class="angrybird-icon" /><img
+            src="./assets/redirect.jpg"
+            alt=""
+            width="30"
+            height="30"
+        /></a>
       </section>
 
       <section class="text-section">
-        <img
-          src="assets/blue bird_angry birds_blue bird_angry birds.png"
-          alt="Angry Bird Icon"
-          class="angrybird-icon"
-        />
-        <p>
-          Lass uns eine kurze Abschnitt
-          <a
-            href="https://www.youtube.com/watch?v=oGeCj61Y1SU&t=1s"
-            target="_blank"
-            rel="noopener noreferrer"
-            >vom Transkript des Videos</a
-          >
-          auf Deutsch übersetzen!
+        <p id="zumtranskript">
+          Lass uns eine kurze Abschnitt vom Transkript des Videos auf Deutsch
+          übersetzen!
         </p>
+        <a
+          href="https://www.youtube.com/watch?v=oGeCj61Y1SU&t=1s"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            src="assets/blue bird_angry birds_blue bird_angry birds.png"
+            alt="Angry Bird Icon"
+            class="angrybird-icon" /><img
+            src="./assets/redirect.jpg"
+            alt=""
+            width="30"
+            height="30"
+        /></a>
       </section>
 
       <section class="text-section">
-        <img
-          src="assets/red bird_angry birds_angry birds_red bird.png"
-          alt="Angry Bird Icon"
-          class="angrybird-icon"
-        />
-        <p>
-          <a
-            href="https://create.kahoot.it/details/4590358e-96f3-41ff-adc7-b1f515591dd2"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Kahoot</a
-          >
-          Zeit!
-        </p>
+        <p id="kahoot">Kahoot Zeit!</p>
+        <a
+          href="https://create.kahoot.it/details/4590358e-96f3-41ff-adc7-b1f515591dd2"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            src="assets/red bird_angry birds_angry birds_red bird.png"
+            alt="Angry Bird Icon"
+            class="angrybird-icon" /><img
+            src="./assets/redirect.jpg"
+            alt=""
+            width="30"
+            height="30"
+        /></a>
       </section>
 
       <!-- Google Suche eingebettet -->
       <section class="search-section">
+        <p id="suchefaehigkeit">Wie ist effektive Suche zu machen?</p>
         <img
           src="assets/72182_red bird_angry birds_red bird_angry birds.png"
           alt="Angry Bird Icon"
           class="angrybird-icon"
         />
-        <p>Wie ist effektive Suche zu machen?</p>
-        <!-- <form
-          action="https://www.google.com/search"
-          method="get"
-          target="_blank"
-          class="search-form"
-        >
-          <input type="text" name="q" placeholder="Google Suche ..." />
-          <button type="submit">Suchen</button>
-        </form> -->
         <script
           async
           src="https://cse.google.com/cse.js?cx=e118718434c194f57"
@@ -179,7 +181,7 @@
           alt="Angry Bird Icon"
           class="angrybird-icon"
         />
-        <p>Namaz Übung! Lies laut vor!</p>
+        <p id="gebetuebung">Namaz Übung! Lies laut vor!</p>
       </section>
 
       <section class="text-section">
@@ -188,7 +190,7 @@
           alt="Angry Bird Icon"
           class="angrybird-icon"
         />
-        <p>
+        <p id="gebetauswendiglernen">
           Zeit, ein Gebet auswendig zu lernen! Zusammen und 7 Mal in der Reihe
           laut vorlesen!
         </p>
@@ -201,22 +203,24 @@
         </details>
       </section>
       <section class="text-section">
-        <img
-          src="assets/blue bird_angry birds_blue bird_angry birds.png"
-          alt="Angry Bird Icon"
-          class="angrybird-icon"
-        />
-        <p>
+        <p id="fazit">
           Lass uns heute, was wir gefühlen haben, was wir verstanden haben, was
-          wir gedachten haben, was wir gelernt haben, als einen kurzen Text
-          <a
-            href="https://blogbluehendeakademie.onrender.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            >im Blog</a
-          >
-          auf Deutsch oder auf Türkisch schreiben!
+          wir gedachten haben, was wir gelernt haben, als einen kurzen Text im
+          Blog auf Deutsch oder auf Türkisch schreiben!
         </p>
+        <a
+          href="https://blogbluehendeakademie.onrender.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            src="assets/blue bird_angry birds_blue bird_angry birds.png"
+            alt="Angry Bird Icon"
+            class="angrybird-icon" /><img
+            src="./assets/redirect.jpg"
+            alt=""
+            width="30"
+            height="30"
+        /></a>
       </section>
 
       <p class="thanks-text">والحمد لله رب العالمين</p>

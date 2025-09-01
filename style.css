@@ -1,11 +1,33 @@
 /* Farbpalette: #896C6C #E5BEB5 #EEE6CA #F5FAE1 */
 
 body {
-  margin: 0;
+  margin: 6.7rem 0 2rem 0;
   font-family: 'Kanit', sans-serif;
   background-color: #F5FAE1;
   color: #896C6C;
   line-height: 1.5;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+label,
+select {
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.1rem;
+  padding: 0.3em;
+  margin: 0.6em;
+}
+
+select {
+  border-radius: 6px;
+  border: 1px solid #1c352d;
+  background: #a6b28b;
+  color: #1c352d;
 }
 
 h1.title {
